@@ -22,7 +22,6 @@
     </div>
     {% get_about as about %}
     <img src="{{ about.get_first_image }}" alt="">
-    <h6>Hi every one! I,m Lena Mollein.</h6>
     {{ about.mini_text|safe }}
     <div class="humberger__menu__about__social sidebar__item__follow__links">
       {% get_social_links as social_links %}
