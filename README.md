@@ -1,20 +1,20 @@
 Python >= 3.8
 Django >= 3
 sqlite3
-Разработка
-1) Сделать форк репозитория и поставить звездочку)
-2) Клонировать репозиторий
-git clone ссылка_сгенерированная_в_вашем_репозитории
-3) Создать виртуальное окружение
+Development
+1) Fork the repository and put an asterisk)
+2) Clone the repository
+git clone ref_generated_in_your_repository
+3) Create a virtual environment
 python -m venv venv
-4) Активировать виртуальное окружение
-5) Устанавливить зависимости:
+4) Activate the virtual environment
+5) Install dependencies:
 pip install -r req.txt
-6) Выполнить команду для выполнения миграций
+6) Run command to perform migrations
 python manage.py migrate
-8) Создать суперпользователя
-python manage.py createsuperuser
-9) Запустить сервер
+8) Create superuser
+python manage.py creates superuser
+9) Start the server
 python manage.py runserver
 License
 BSD 3-Clause License
