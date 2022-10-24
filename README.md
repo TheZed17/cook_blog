@@ -1,6 +1,13 @@
-Python >= 3.8
-Django >= 3
-sqlite3
+Project description:
+Chef blog with recipes
+
+Development Tools
+Stack:
+
+  Python >= 3.9
+  Django >= 3
+  sqlite3
+  
 Development
 1) Fork the repository and put an asterisk)
 2) Clone the repository
@@ -16,7 +23,5 @@ python manage.py migrate
 python manage.py creates superuser
 9) Start the server
 python manage.py runserver
-License
-BSD 3-Clause License
 
 Copyright (c) 2022-present, - Deminski Igor
